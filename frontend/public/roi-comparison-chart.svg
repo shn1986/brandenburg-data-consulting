@@ -1,0 +1,58 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#fafafa"/>
+  
+  <!-- Chart Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#1f2937">
+    ROI Comparison: Data-Driven vs Traditional Companies
+  </text>
+  
+  <!-- Y-axis -->
+  <line x1="80" y1="60" x2="80" y2="320" stroke="#6b7280" stroke-width="2"/>
+  
+  <!-- X-axis -->
+  <line x1="80" y1="320" x2="550" y2="320" stroke="#6b7280" stroke-width="2"/>
+  
+  <!-- Y-axis labels -->
+  <text x="70" y="70" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#6b7280">40%</text>
+  <text x="70" y="120" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#6b7280">30%</text>
+  <text x="70" y="170" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#6b7280">20%</text>
+  <text x="70" y="220" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#6b7280">10%</text>
+  <text x="70" y="270" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#6b7280">0%</text>
+  <text x="70" y="320" text-anchor="end" font-family="Inter, sans-serif" font-size="12" fill="#6b7280">-10%</text>
+  
+  <!-- Bars -->
+  <!-- Revenue Growth -->
+  <rect x="120" y="145" width="60" height="175" fill="#34B3BD" opacity="0.8"/>
+  <rect x="190" y="195" width="60" height="125" fill="#FF914D" opacity="0.6"/>
+  
+  <!-- Customer Satisfaction -->
+  <rect x="280" y="120" width="60" height="200" fill="#34B3BD" opacity="0.8"/>
+  <rect x="350" y="220" width="60" height="100" fill="#FF914D" opacity="0.6"/>
+  
+  <!-- Operational Efficiency -->
+  <rect x="440" y="95" width="60" height="225" fill="#34B3BD" opacity="0.8"/>
+  <rect x="510" y="245" width="60" height="75" fill="#FF914D" opacity="0.6"/>
+  
+  <!-- Bar values -->
+  <text x="150" y="135" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">23%</text>
+  <text x="220" y="185" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">8%</text>
+  
+  <text x="310" y="110" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">35%</text>
+  <text x="380" y="210" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">12%</text>
+  
+  <text x="470" y="85" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">42%</text>
+  <text x="540" y="235" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">15%</text>
+  
+  <!-- X-axis category labels -->
+  <text x="175" y="345" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">Revenue Growth</text>
+  <text x="315" y="345" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">Customer Satisfaction</text>
+  <text x="475" y="345" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">Operational Efficiency</text>
+  
+  <!-- Legend -->
+  <rect x="150" y="365" width="15" height="15" fill="#34B3BD" opacity="0.8"/>
+  <text x="175" y="377" font-family="Inter, sans-serif" font-size="12" fill="#1f2937">Data-Driven Companies</text>
+  
+  <rect x="330" y="365" width="15" height="15" fill="#FF914D" opacity="0.6"/>
+  <text x="355" y="377" font-family="Inter, sans-serif" font-size="12" fill="#1f2937">Traditional Companies</text>
+</svg>

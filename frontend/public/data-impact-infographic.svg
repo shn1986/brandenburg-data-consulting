@@ -1,0 +1,92 @@
+<svg width="600" height="500" viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" fill="#fafafa"/>
+  
+  <!-- Title -->
+  <text x="300" y="30" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#1f2937">
+    The Business Impact of Data Analytics
+  </text>
+  
+  <!-- Central hub -->
+  <circle cx="300" cy="250" r="50" fill="#34B3BD" opacity="0.9"/>
+  <text x="300" y="250" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="white">
+    DATA
+  </text>
+  <text x="300" y="265" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="700" fill="white">
+    ANALYTICS
+  </text>
+  
+  <!-- Impact circles with stats -->
+  <!-- Revenue Growth -->
+  <circle cx="150" cy="150" r="35" fill="#8DC63F" opacity="0.8"/>
+  <text x="150" y="145" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="white">
+    +23%
+  </text>
+  <text x="150" y="160" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="white">
+    Revenue
+  </text>
+  <text x="150" y="120" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">
+    Revenue Growth
+  </text>
+  
+  <!-- Cost Reduction -->
+  <circle cx="450" cy="150" r="35" fill="#FDB913" opacity="0.8"/>
+  <text x="450" y="145" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="white">
+    -30%
+  </text>
+  <text x="450" y="160" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="white">
+    Costs
+  </text>
+  <text x="450" y="120" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">
+    Cost Reduction
+  </text>
+  
+  <!-- Customer Satisfaction -->
+  <circle cx="150" cy="350" r="35" fill="#FF914D" opacity="0.8"/>
+  <text x="150" y="345" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="white">
+    +45%
+  </text>
+  <text x="150" y="360" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="white">
+    Satisfaction
+  </text>
+  <text x="150" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">
+    Customer Satisfaction
+  </text>
+  
+  <!-- Decision Speed -->
+  <circle cx="450" cy="350" r="35" fill="#34B3BD" opacity="0.8"/>
+  <text x="450" y="345" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="800" fill="white">
+    5x
+  </text>
+  <text x="450" y="360" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" font-weight="600" fill="white">
+    Faster
+  </text>
+  <text x="450" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#1f2937">
+    Decision Speed
+  </text>
+  
+  <!-- Connection lines -->
+  <line x1="250" y1="250" x2="185" y2="150" stroke="#8DC63F" stroke-width="2" opacity="0.6"/>
+  <line x1="350" y1="250" x2="415" y2="150" stroke="#FDB913" stroke-width="2" opacity="0.6"/>
+  <line x1="250" y1="250" x2="185" y2="350" stroke="#FF914D" stroke-width="2" opacity="0.6"/>
+  <line x1="350" y1="250" x2="415" y2="350" stroke="#34B3BD" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Data points animation -->
+  <circle cx="220" cy="200" r="2" fill="#8DC63F">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="380" cy="200" r="2" fill="#FDB913">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="0.5s" />
+  </circle>
+  <circle cx="220" cy="300" r="2" fill="#FF914D">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="1s" />
+  </circle>
+  <circle cx="380" cy="300" r="2" fill="#34B3BD">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite" begin="1.5s" />
+  </circle>
+  
+  <!-- Bottom text -->
+  <text x="300" y="450" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#6b7280">
+    Companies leveraging data analytics see measurable improvements across all key business metrics
+  </text>
+</svg>

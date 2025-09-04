@@ -1,0 +1,38 @@
+<svg width="280" height="60" viewBox="0 0 280 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- BDC Initials with solid colors -->
+  <g id="logoInitials">
+    <!-- B -->
+    <text x="15" y="42" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="32" font-weight="800" fill="#34B3BD">
+      B
+    </text>
+    <!-- D -->
+    <text x="35" y="42" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="32" font-weight="800" fill="#8DC63F">
+      D
+    </text>
+    <!-- C -->
+    <text x="55" y="42" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="32" font-weight="800" fill="#FDB913">
+      C
+    </text>
+  </g>
+  
+  <!-- Full Company Name -->
+  <text x="85" y="20" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" fill="#374151">
+    Brandenburg Data Consulting
+  </text>
+  <text x="85" y="36" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="500" fill="#6B7280">
+    Expert Data Solutions
+  </text>
+  
+  <!-- Data connection elements -->
+  <g id="dataElements" opacity="0.4">
+    <!-- Small connecting dots -->
+    <circle cx="78" cy="15" r="1.5" fill="#34B3BD">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="82" cy="45" r="1.5" fill="#FF914D">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3s" repeatCount="indefinite" begin="1.5s" />
+    </circle>
+    <!-- Subtle connection line -->
+    <line x1="78" y1="15" x2="82" y2="45" stroke="#8DC63F" stroke-width="0.8" opacity="0.3" />
+  </g>
+</svg>

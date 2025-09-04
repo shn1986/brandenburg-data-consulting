@@ -1,0 +1,123 @@
+<svg width="700" height="400" viewBox="0 0 700 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="700" height="400" fill="#fafafa"/>
+  
+  <!-- Chart Title -->
+  <text x="350" y="30" text-anchor="middle" font-family="Inter, sans-serif" font-size="18" font-weight="700" fill="#1f2937">
+    Data Maturity Evolution: From Reactive to Predictive
+  </text>
+  
+  <!-- Progress arrow -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8DC63F" />
+    </marker>
+  </defs>
+  
+  <line x1="50" y1="350" x2="650" y2="350" stroke="#8DC63F" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <text x="350" y="370" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#8DC63F">
+    Evolution Timeline
+  </text>
+  
+  <!-- Stage 1: Reactive -->
+  <rect x="80" y="80" width="120" height="200" rx="10" fill="#FF914D" opacity="0.8"/>
+  <text x="140" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="white">
+    Stage 1
+  </text>
+  <text x="140" y="125" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white">
+    REACTIVE
+  </text>
+  <text x="140" y="150" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Manual Reports
+  </text>
+  <text x="140" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Spreadsheets
+  </text>
+  <text x="140" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Historical Analysis
+  </text>
+  <text x="140" y="210" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Basic Metrics
+  </text>
+  <text x="140" y="250" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="white">
+    ROI: 5-10%
+  </text>
+  
+  <!-- Stage 2: Descriptive -->
+  <rect x="220" y="80" width="120" height="200" rx="10" fill="#FDB913" opacity="0.8"/>
+  <text x="280" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="white">
+    Stage 2
+  </text>
+  <text x="280" y="125" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white">
+    DESCRIPTIVE
+  </text>
+  <text x="280" y="150" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Dashboards
+  </text>
+  <text x="280" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • KPI Tracking
+  </text>
+  <text x="280" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Data Warehouses
+  </text>
+  <text x="280" y="210" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • BI Tools
+  </text>
+  <text x="280" y="250" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="white">
+    ROI: 15-25%
+  </text>
+  
+  <!-- Stage 3: Diagnostic -->
+  <rect x="360" y="80" width="120" height="200" rx="10" fill="#8DC63F" opacity="0.8"/>
+  <text x="420" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="white">
+    Stage 3
+  </text>
+  <text x="420" y="125" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white">
+    DIAGNOSTIC
+  </text>
+  <text x="420" y="150" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Root Cause Analysis
+  </text>
+  <text x="420" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Advanced Analytics
+  </text>
+  <text x="420" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Statistical Models
+  </text>
+  <text x="420" y="210" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Trend Analysis
+  </text>
+  <text x="420" y="250" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="white">
+    ROI: 25-35%
+  </text>
+  
+  <!-- Stage 4: Predictive -->
+  <rect x="500" y="80" width="120" height="200" rx="10" fill="#34B3BD" opacity="0.8"/>
+  <text x="560" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="700" fill="white">
+    Stage 4
+  </text>
+  <text x="560" y="125" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="white">
+    PREDICTIVE
+  </text>
+  <text x="560" y="150" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Machine Learning
+  </text>
+  <text x="560" y="170" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • AI Models
+  </text>
+  <text x="560" y="190" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Forecasting
+  </text>
+  <text x="560" y="210" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="white">
+    • Automation
+  </text>
+  <text x="560" y="250" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="white">
+    ROI: 35-50%
+  </text>
+  
+  <!-- Progress indicators -->
+  <circle cx="140" cy="310" r="6" fill="#FF914D"/>
+  <circle cx="280" cy="310" r="6" fill="#FDB913"/>
+  <circle cx="420" cy="310" r="6" fill="#8DC63F"/>
+  <circle cx="560" cy="310" r="6" fill="#34B3BD"/>
+</svg>
