@@ -17,12 +17,21 @@ Professional full-stack website for Brandenburg Data Consulting, offering data c
    npm run install:all
    ```
 
-2. **Set up the database:**
+2. **Create environment files (excluded from git):**
+   ```bash
+   # Backend environment
+   cp backend/.env.example backend/.env
+   
+   # Frontend environment
+   cp frontend/.env.local.example frontend/.env.local
+   ```
+
+3. **Set up the database:**
    ```bash
    npm run setup
    ```
 
-3. **Start development servers:**
+4. **Start development servers:**
    ```bash
    npm run dev
    ```
@@ -31,6 +40,8 @@ Professional full-stack website for Brandenburg Data Consulting, offering data c
    - Frontend: http://localhost:3000
    - Backend API: http://localhost:5000
    - Admin Panel: http://localhost:3000/admin
+
+📋 **See [setup.md](setup.md) for detailed setup instructions including required files excluded by .gitignore**
 
 ## Project Structure
 

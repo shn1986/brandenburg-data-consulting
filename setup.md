@@ -14,10 +14,11 @@
 npm run install:all
 ```
 
-### 2. Environment Setup
+### 2. Create Required Files (Excluded by .gitignore)
 
-#### Backend Environment
+⚠️ **Important**: These files are excluded from version control and must be created manually:
 
+#### Backend Environment File
 ```bash
 # Copy the example environment file
 cp backend/.env.example backend/.env
@@ -26,14 +27,20 @@ cp backend/.env.example backend/.env
 # Important: Change the JWT_SECRET and admin credentials
 ```
 
-#### Frontend Environment
-
+#### Frontend Environment File
 ```bash
 # Copy the example environment file  
 cp frontend/.env.local.example frontend/.env.local
 
 # Edit if needed (default values should work for local development)
 ```
+
+#### Files Created Automatically
+The following files will be created automatically during setup:
+- `backend/database.sqlite` (SQLite database)
+- `node_modules/` directories (dependencies)
+- `.next/` (Next.js build cache)
+- Log files and other runtime files
 
 ### 3. Database Setup
 
